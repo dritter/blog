@@ -1,23 +1,23 @@
 # Site settings
-title: "Su Yan's Blog"
-email: suyan0830@gmail.com
+title: "Ferdi's Blog"
+email: ferdian.adi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  "Su Yan's Tech Blog"
+  "Ferdi's Tech Blog"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yansu.org" # the base hostname & protocol for your site
+url: "http://ferdianap.github.io" # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
-author: Su Yan
+author: Ferdi Pratama
 twitter:
-  username: masonsuyan
+  username: itsferdee
 
 # Sidebar filter
 # Choose 'tag' or 'category' as filter in sidebar.
 filter: 'category'
 
 # Social account
-twitter: masonsuyan
+twitter: itsferdee
 # weibo:    ID
-github: suyan
+github: ferdianap
 # codepen:  username
 # dribbble: username
 
@@ -27,7 +27,7 @@ favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
 
 # disqus config
 disqus:
-  shortname: suyan-en
+  shortname: ferdee
 
 # google analytics config
 ga:
