@@ -3,7 +3,7 @@ title: "Ferdi's Blog"
 email: ferdian.adi@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   "Ferdi's Tech Blog"
-baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: "http://ferdianap.github.io" # the base hostname & protocol for your site
 rss_url: /pages/feed.xml
 author: Ferdi Pratama
