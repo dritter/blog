@@ -1,6 +1,6 @@
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
-markdown: redcarpet
+# markdown: redcarpet # redcarpet is no longer supported in Github Pages
 highlighter: rouge # pygments currently not supported in Github Pages
 
 kramdown:
