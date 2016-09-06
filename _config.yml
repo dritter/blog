@@ -22,12 +22,12 @@ github: ferdianap
 # dribbble: username
 
 # avatar and Favicon
-avatar: http://7u2ho6.com1.z0.glb.clouddn.com/site-avatar.png
-favicon: http://7u2ho6.com1.z0.glb.clouddn.com/site-favicon.ico
+avatar: https://ferdianap.github.io/images/pp%20150.jpg
+favicon: https://ferdianap.github.io/images/favicon.ico
 
 # disqus config
 disqus:
-  shortname: ferdee
+  shortname: ferdianap-github-io-blog
 
 # google analytics config
 ga:
