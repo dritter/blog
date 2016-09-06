@@ -8,7 +8,7 @@ URL: [ferdianap.github.io/blog/](https://ferdianap.github.io/blog/)
 
 - The blog now works under based url! Huzzah!
 - Mobile browser compatibility
-- Search function is still not working...
+- Search function is disabled
 
 ## Changelog
 
@@ -20,7 +20,7 @@ URL: [ferdianap.github.io/blog/](https://ferdianap.github.io/blog/)
 
 ## TODO
 
-- Add `_drafts` folder
+- ...
 
 ### Rough translation from suyan's repo
 
