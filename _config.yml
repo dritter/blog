@@ -1,7 +1,7 @@
 permalink: /:year/:month/:day/:title.html
 markdown: kramdown
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge # pygments currently not supported in Github Pages
 
 kramdown:
   input: GFM
