@@ -18,6 +18,7 @@ author:
 title: Ferdi's Blog 
 description: My Mind palace where we together index every node of wisdom's tree
 url: http://
+baseurl: /blog
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
