@@ -12,12 +12,12 @@ author:
   email: ferdian.adi@gmail.com
   link: ferdianap.github.io/blog
   twitter: https://twitter.com/itsferdee
-  github: http://github.com/ferdianap
+  github: https://github.com/ferdianap
 
 # 站点信息
 title: Ferdi's Blog 
 description: My Mind palace where we together index every node of wisdom's tree
-url: ferdianap.github.io/blog
+url: https://ferdianap.github.io/blog
 baseurl: /blog
 rss_url: /pages/atom.xml
 
