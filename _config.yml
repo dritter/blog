@@ -1,50 +1,34 @@
-# Site settings
-title: "Ferdi's Blog"
-email: ferdian.adi@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  "Ferdi's Tech Blog"
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
-url: "http://ferdianap.github.io" # the base hostname & protocol for your site
-rss_url: /pages/feed.xml
-author: Ferdi
-twitter:
-  username: itsferdee
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
 
-# Sidebar filter
-# Choose 'tag' or 'category' as filter in sidebar.
-filter: 'category'
+kramdown:
+  input: GFM
 
-# Social account
-twitter: itsferdee
-# weibo:    ID
-github: ferdianap
-# codepen:  username
-# dribbble: username
+# 作者信息
+author: 
+  name: ferdi
+  email: ferdian.adi@gmail.com
+  link: ferdianap.github.io/blog
+  twitter: https://twitter.com/itsferdee
+  github: http://github.com/ferdianap
 
-# avatar and Favicon
+# 站点信息
+title: Ferdi's Blog 
+description: My Mind palace where we together index every node of wisdom's tree
+url: http://
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
 avatar: https://ferdianap.github.io/images/pp%20150.jpg
 favicon: https://ferdianap.github.io/images/favicon.ico
 
-# disqus config
-disqus:
-  shortname: ferdianap-github-io-blog
-
-# google analytics config
+# google analytics 设置
 ga:
   id: UA-39316813-2
   url: auto
 
-# Build settings
-permalink: /:year/:month/:day/:title.html
-markdown: kramdown
-highlighter: rouge
-sass:
-  style: compressed
-
-# Jekyll Plugin
-# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
-gems:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
-
+# disqus 设置
+disqus:
+  shortname: ferdianap-github-io-blog
