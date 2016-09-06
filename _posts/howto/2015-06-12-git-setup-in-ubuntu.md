@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Git + Ubuntu 12.04 + VirtualBox
+title: Git setup in Ubuntu
 category: How-To
-tags: github ubuntu virtualbox program how-to
+tags: git ubuntu program how-to
 description: git know how series
 ---
-
-# Setting GitHub for VM Linux Ubuntu 12.04
 
 By [Ferdian Pratama](http:/ferdianap.github.io/)
 
@@ -25,11 +23,9 @@ Latest update: Jun 12, 2015 13:50:29 PM
 
 <!-- /MarkdownTOC -->
 
-
-
 ## Update Git into the latest version
 
-(Tested on ver. 2.4.3)
+(Tested ver. 2.4.3 in Ubuntu 12.04)
 
 ```sh
 sudo add-apt-repository ppa:git-core/ppa
@@ -121,7 +117,11 @@ Initially, <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `init` must b
 
 To add and commit all in one step, just skip straight to the Quick Commit command. That will stage and commit for you.
 
-It’s the equivalent of git commit -am 'im staging and committing!'.
+It’s the equivalent of
+
+```sh
+git commit -am 'im staging and committing!'
+```
 
 ### Rename a git folder
 
