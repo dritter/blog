@@ -33,6 +33,7 @@ It's done!
 
 ### Branch info
 
-- 3-column layout (`master` branch, based on [3-Jekyll](https://github.com/P233/3-Jekyll))
-- 3-column layout (`bootstrap` branch, based on Bootstrap)
-- single column layout (`first-ui` branch, based on Bootstrap)
+- `master` branch (3-column layout, based on [3-Jekyll](https://github.com/P233/3-Jekyll))
+- `gh-pages` branch (in principle the same as `master` branch but with more recent update, this is the displayed version of the blog due to the baseurl `/blog`)
+- `bootstrap` branch (3-column layout, based on Bootstrap, currently inactive)
+- `first-ui` branch (single column layout, based on Bootstrap, currently inactive)
