@@ -6,8 +6,6 @@ tags: git ubuntu program how-to
 description: git know how series
 ---
 
-By [Ferdian Pratama](http:/ferdianap.github.io/)
-
 Latest update: Jun 12, 2015 13:50:29 PM
 
 <!-- MarkdownTOC depth=3 -->

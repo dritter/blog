@@ -6,8 +6,6 @@ tags: sublimetext3 tips program how-to
 description: tips know how series
 ---
 
-By [Ferdian Pratama](http:/ferdianap.github.io/)
-
 Latest update: Jun 12, 2015 13:50:17 PM
 
 <!-- MarkdownTOC depth=3 -->
