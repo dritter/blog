@@ -1,18 +1,38 @@
-### 我的博客
+# My Blog
 
-地址：[http://yansu.org](http://yansu.org)
+This blog is based on [3-Jekyll](https://github.com/P233/3-Jekyll) and [suyan's blog](https://github.com/suyan/suyan.github.io).
 
-### 安装说明
+URL: [ferdianap.github.io/blog/](https://ferdianap.github.io/blog/)
 
-1. fork库到自己的github
-2. 修改名字为：`username.github.io`
-3. clone库到本地，参考`_posts`中的目录结构自己创建适合自己的文章目录结构
-4. 修改CNAME，或者删掉这个文件，使用默认域名
-5. 修改`_config.yml`配置项
-6. It's done!
+## Progress
 
-### 分支说明
+- The blog now works under based url! Huzzah!
+- Mobile browser compatibility
+- Search function is still not working...
 
-- 三栏布局（master分支，基于[3-Jekyll](https://github.com/P233/3-Jekyll)）
-- 三栏布局 (bootstrap-based分支，基于Bootstrap)
-- 单栏布局（first-ui分支，基于Bootstrap）
+## Changelog
+
+- Added favicon
+- Fixed broken Disqus
+- Modded personal info
+- removed `CNAME`
+- Modded Google Analytics
+
+## TODO
+
+- Add `_drafts` folder
+
+### Rough translation from suyan's repo
+
+1. fork the github repo
+2. rename the `username.github.io`
+3. clone to local repo, create manually the category folder and each post in the `_posts` directory
+4. Modify or remove `CNAME`
+5. Modify config in `_config.yml`
+It's done!
+
+### Branch info
+
+- 3-column layout (`master` branch, based on [3-Jekyll](https://github.com/P233/3-Jekyll))
+- 3-column layout (`bootstrap` branch, based on Bootstrap)
+- single column layout (`first-ui` branch, based on Bootstrap)
