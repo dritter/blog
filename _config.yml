@@ -31,8 +31,8 @@ disqus:
 
 # google analytics config
 ga:
-  id: UA-54767140-2
-  url: yansu.org
+  id: UA-39316813-2
+  url: auto
 
 # Build settings
 permalink: /:year/:month/:day/:title.html
