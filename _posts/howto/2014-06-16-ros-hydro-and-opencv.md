@@ -12,7 +12,7 @@ Tested on:
 - Ubuntu 12.04 Precise Pangoline
 - Logicool c270h webcam
 
-ROS supports many camera drivers which let us control the camera parameters like resolution, frame rate etc., and publish raw images for further processing by the code. Here, i will be using `uvc_camera` USB camera driver written by Ken Tossell.
+ROS supports many camera drivers which let us control the camera parameters like resolution, frame rate etc., and publish raw images for further processing by the code. Here, i will be using `uvc_camera` USB camera driver written by [Ken Tossell](http://wiki.ros.org/uvc_camera).
 
 We will:
 
@@ -44,12 +44,17 @@ Before moving ahead, it is important to make sure whether your webcam works or n
 
         sudo apt-get install mjpegtools
 
-4.  To test the webcam,
-open a terminal type dmesg click enter
-after it stops type lsusb click enter
-try the cam in by type in guvcview 
+4.  To test the webcam, open a terminal type 
+	
+		dmesg
 
+	after it stops, type
 
+		lsusb
+
+	try the cam in by typing in
+
+		guvcview 
 
 Install Camera Drivers to work with ROS
 ---------------------------------------
@@ -97,11 +102,14 @@ Create a new package for image processing
 > FOR GROOVY!! CHANGE `uvc_camera` into `usb_cam`
 
 1.  Open a new terminal window and in the home directory, type the following:
-	for rospack:
+	
+	for Rosbuild:
     
         roscreate-pkg tutorialROSOpenCV image_transport roscpp std_msgs opencv2 cv_bridge uvc_camera
 
-    for catkin: (NOTE!!: no need to include opencv or opencv2 for catkin in groovy/hydro, because it is always embedded as stand-alone package)
+    for Catkin:
+
+	**NOTE!!: no need to include opencv or opencv2 for catkin in groovy/hydro, because it is always embedded as stand-alone package**
     
         catkin_create_pkg tut_ros_opencv image_transport roscpp std_msgs cv_bridge uvc_camera
 
@@ -175,13 +183,14 @@ Create a new package for image processing
 
 	Save and Exit the text editor.
 	Restart the terminal, gain root access, and type:
-	For Rospack:
+
+	For Rosbuild:
 	
     ```sh
     rosmake tutorialROSOpenCV
     ```
 
-	For catkin:
+	For Catkin:
 	```sh
     catkin_make
     ```
@@ -293,13 +302,14 @@ Write the code for image processing
 -----------------------------------
 
 1.  In a new terminal window, type the following:
+	
 	For Rosbuild:
     
     ```sh
     roscd tutorialROSOpenCV/src
     ```
 
-    For catkin:
+    For Catkin:
     ```sh
     roscd tut_ros_opencv/src
     ```
@@ -453,13 +463,14 @@ Write the code for image processing
     Save and Exit.
 
 2.	Before we make the program, we have to edit the `CMakeLists.txt` file to ensure it will build and make an executable file of the program above. Gain root access, and type:
+	
 	For Rosbuild
 	
     ```sh
     roscd tutorialROSOpenCV/
     ```
 
-	For catkin
+	For Catkin
 	```sh
     roscd tut_ros_opencv
     ```
@@ -496,12 +507,13 @@ Write the code for image processing
     Save and Exit.
 
 3.	Now we can compile/make the package. Type:
+
 	For Rosbuild:
     ```sh
 	rosmake tutorialROSOpenCV
     ```
 
-	For catkin:
+	For Catkin:
 	```sh
     catkin_make
     ```
@@ -521,12 +533,13 @@ Write the code for image processing
     ```
 
     To run the project, type:
-    For rosbuild:
+
+    For Rosbuild:
     ```sh
     rosrun tutorialROSOpenCV tutorialROSOpenCV
     ```
 
-    For catkin:
+    For Catkin:
     ```sh
     rosrun tut_ros_opencv tut_ros_opencv
     ```
