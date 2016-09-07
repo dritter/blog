@@ -6,7 +6,7 @@ tags: ros baxter gazebo moveit program how-to
 description: ros know how series
 ---
 
-## INSTALL KEYS AND PACKAGES
+## Install keys and packages
 
 ```sh
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu precise main" > /etc/apt/sources.list.d/ros-latest.list'
@@ -22,7 +22,7 @@ sudo rosdep init
 rosdep update
 ```
 
-## WORKSPACE
+## Workspace
 
 ```sh
 mkdir -p $P/src
@@ -43,7 +43,7 @@ wget https://github.com/RethinkRobotics/baxter/raw/master/baxter.sh
 chmod +x baxter.sh
 ```
 
-## BUILD
+## Build
 
 ```sh
 cd $P
@@ -53,9 +53,9 @@ catkin_make install
 
 > Modify `baxter.sh` to set hosts and hydro
 
-## TEST
+## Test
 
-### TERMINAL 1
+### Terminal 1
 
 
 ```sh
@@ -64,7 +64,7 @@ cd $P
 roslaunch baxter_gazebo baxter_world.launch
 ```
 
-### TERMINAL 2
+### Terminal 2
 
 ```sh
 cd $P
@@ -72,7 +72,7 @@ cd $P
 rosrun baxter_interface joint_trajectory_action_server.py
 ```
 
-### TERMINAL 3
+### Terminal 3
 
 ```sh
 cd $P
