@@ -14,3 +14,5 @@ description: git know how series
 The result should be your master is now essentially gh-pages.
 
 git merge `branch` means to merge the `branch` into your active branch (e.g. `master`)
+
+[Original post](http://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch)

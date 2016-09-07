@@ -13,3 +13,4 @@ To keep `branch` in sync with `master`, do the following:
 	git checkout branch
 	git merge master
 
+[Original post](http://stackoverflow.com/questions/16329776/how-to-keep-a-git-branch-in-sync-with-master)
