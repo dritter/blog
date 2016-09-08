@@ -125,7 +125,7 @@ or just quit and restart your iTerm2 to make sure your changes are picked up.
 [4]: http://iterm2colorschemes.com/
 [5]: https://gist.github.com/kevin-smets/8568070
 [6]: https://github.com/powerline/fonts
-[7]: https://github.com/ferdianap/blog/blob/gh-pages/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
+[7]: https://github.com/ferdianap/blog/blob/gh-pages/_docs/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf
 [8]: https://github.com/bhilburn/powerlevel9k
 [9]: https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 [10]: https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh
