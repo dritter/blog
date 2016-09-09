@@ -22,8 +22,8 @@ baseurl: /blog
 rss_url: /pages/atom.xml
 
 # avatar头像及Favicon
-avatar: https://ferdianap.github.io/images/pp%20150.jpg
-favicon: https://ferdianap.github.io/images/favicon.ico
+avatar: https://cdn.rawgit.com/ferdianap/ferdianap.github.io/gh-pages/blog/_docs/avatar.png
+favicon: https://cdn.rawgit.com/ferdianap/ferdianap.github.io/gh-pages/blog/_docs/favicon.ico
 
 # google analytics 设置
 ga:
