@@ -587,7 +587,7 @@ iframe {
 #icon-twitter {
   margin-left: -90px; }
   #icon-twitter:hover {
-    color: #4099ff; }
+    color: #00acee; }
   #icon-twitter:before {
     content: "\e805"; }
 
@@ -598,11 +598,11 @@ iframe {
   #icon-cc:before {
     content: "\e803"; }
 
-#icon-weibo {
+#icon-facebook {
   margin-left: 50px; }
-  #icon-weibo:hover {
-    color: #d40220; }
-  #icon-weibo:before {
+  #icon-facebook:hover {
+    color: #3b5998; }
+  #icon-facebook:before {
     content: "\e804"; }
 
 #disqus_thread {
