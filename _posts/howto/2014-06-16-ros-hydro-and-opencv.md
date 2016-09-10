@@ -268,7 +268,7 @@ In order to make sure that the package uvc_camera is in fact publishing the imag
     Subscribers: None
     ```
 
-	`sensor_msgs/Image` is a ROS image format which contains the header, height, width, step, and image data. Refer to: [http://www.ros.org/doc/api/sensor_msgs/html/msg/Image.html]() for more information.
+	`sensor_msgs/Image` is a ROS image format which contains the header, height, width, step, and image data. Refer to [HERE](http://www.ros.org/doc/api/sensor_msgs/html/msg/Image.html) for more information.
 
 
 
@@ -290,7 +290,7 @@ In order to make sure that the package uvc_camera is in fact publishing the imag
     Subscribers: None
     ```
 
-	`sensor_msgs/CameraInfo` is a ROS information format which contains the header, height, width, distortion model params, binning params and ROI (region of interest) params. Refer to: [http://www.ros.org/doc/api/sensor_msgs/html/msg/CameraInfo.html]() for more info.
+	`sensor_msgs/CameraInfo` is a ROS information format which contains the header, height, width, distortion model params, binning params and ROI (region of interest) params. Refer to [HERE](http://www.ros.org/doc/api/sensor_msgs/html/msg/CameraInfo.html) for more info.
 
     You can view the contents of this topic by typing:
 

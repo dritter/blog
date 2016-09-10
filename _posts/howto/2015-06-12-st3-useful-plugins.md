@@ -54,33 +54,33 @@ Add the following code in the settings
 
 ## Installed packages
 
-To see more features of ST3, check out [https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings]()
+To see more features of ST3, check out [https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
 
 ### Package Control
 
-See [https://packagecontrol.io/installation]()
+See [https://packagecontrol.io/installation](https://packagecontrol.io/installation)
 
 ### Word Count
 
-See [https://github.com/titoBouzout/WordCount]()
+See [https://github.com/titoBouzout/WordCount](https://github.com/titoBouzout/WordCount)
 
 ### LaTeX WordCount
 
-See [https://github.com/lionandoil/SublimeLaTeXWordCount]()
+See [https://github.com/lionandoil/SublimeLaTeXWordCount](https://github.com/lionandoil/SublimeLaTeXWordCount)
 
 The default key binding is <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>
 
 ### Color Sublime
 
-See [https://github.com/Colorsublime/Colorsublime-Plugin]()
+See [https://github.com/Colorsublime/Colorsublime-Plugin](https://github.com/Colorsublime/Colorsublime-Plugin)
 
-Download the themes from [http://colorsublime.com/]()
+Download the themes from [http://colorsublime.com/](http://colorsublime.com/)
 and go to `Preference > Browse Package ...`
 copy all the `.tmTheme` files into a folder named *Colorsublime-Themes*
 
 ### Theme - Spacegray
 
-See [https://github.com/kkga/spacegray]()
+See [https://github.com/kkga/spacegray](https://github.com/kkga/spacegray)
 
 Go to `Preference > Settings - User`, copy and paste the following
 
@@ -98,7 +98,7 @@ Go to `Preference > Settings - User`, copy and paste the following
 
 ### Theme - Asphalt
 
-See [https://github.com/Orlmente/Theme-Asphalt]()
+See [https://github.com/Orlmente/Theme-Asphalt](https://github.com/Orlmente/Theme-Asphalt)
 
 ```yaml
 {
@@ -112,11 +112,11 @@ See [https://github.com/Orlmente/Theme-Asphalt]()
 }
 ```
 
-To get more themes, see [https://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014]()
+To get more themes, see [https://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014](https://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
 
 ### Markdown TOC
 
-See [https://github.com/naokazuterada/MarkdownTOC]()
+See [https://github.com/naokazuterada/MarkdownTOC](https://github.com/naokazuterada/MarkdownTOC)
 
 #### Feature
 
@@ -181,7 +181,7 @@ You can also set default depth in Settings.
 
 ### Diffy
 
-See [https://github.com/zsong/diffy]()
+See [https://github.com/zsong/diffy](https://github.com/zsong/diffy)
 
 After install the plugin, set the layout to be 2 columns via View -> Layout -> Columns: 2. And make sure you have files (or temporary files pasted from clipboard) opened side by side.
 
@@ -191,7 +191,7 @@ To clear the marked lines, press press <kbd>Ctrl</kbd>+<kbd>K</kbd> followed by 
 
 ### LaTeX Tools
 
-See [https://github.com/SublimeText/LaTeXTools]()
+See [https://github.com/SublimeText/LaTeXTools](https://github.com/SublimeText/LaTeXTools)
 
 1. Install MikTex for Windows, or TexLive for Windows, Mac and Linux.
 2. For first time install, open the command palette from the Tools menu, search for "LaTeXTools: Reconfigure and migrate settings.
@@ -210,7 +210,7 @@ To Inv Search: double click in the PDF
 
 ### InsertDate
 
-See [https://github.com/FichteFoll/sublimetext-insertdate]()
+See [https://github.com/FichteFoll/sublimetext-insertdate](https://github.com/FichteFoll/sublimetext-insertdate)
 
 Preference > Package Settings > InsertDate > Settings - User
 then copy the following and save.
@@ -226,11 +226,11 @@ then copy the following and save.
 To launch the menu, press <kbd>F5</kbd> .
 To directly insert the default timestamp, press <kbd>Ctrl</kbd>+<kbd>F5</kbd> twice.
 
-To make a custom format, visit [http://www.strfti.me/]()
+To make a custom format, visit [http://www.strfti.me/](http://www.strfti.me/)
 
 ### Markdown Editing
 
-See [https://github.com/SublimeText-Markdown/MarkdownEditing]()
+See [https://github.com/SublimeText-Markdown/MarkdownEditing](https://github.com/SublimeText-Markdown/MarkdownEditing)
 
 In order to activate the dark or the yellow theme, put one of these lines to your user settings file of the flavor (Packages/User/[flavor].sublime-settings):
 
@@ -269,7 +269,7 @@ Using Sublime Text menu: `Preferences`>`Package Settings`>`Markdown Preview`
 
 ### OmniMarkupPreviewer
 
-See [https://github.com/timonwong/OmniMarkupPreviewer]()
+See [https://github.com/timonwong/OmniMarkupPreviewer](https://github.com/timonwong/OmniMarkupPreviewer)
 
 To preview, just <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>O</kbd> and it will update automatically without manual refresh browser.
 
@@ -277,20 +277,20 @@ To preview, just <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>O</kbd> and it will update 
 
 ### SidebarFolders
 
-See [https://github.com/titoBouzout/SideBarFolders]()
+See [https://github.com/titoBouzout/SideBarFolders](https://github.com/titoBouzout/SideBarFolders)
 
 This allows quick switch of the opened folders without within the same window.
 Notice the Folder ToolBar.
 
 ### Alignment
 
-See [http://wbond.net/sublime_packages/alignment]()
+See [http://wbond.net/sublime_packages/alignment](http://wbond.net/sublime_packages/alignment)
 
 Highlight the lines and <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>A</kbd>.
 
 ### Sidebar Enhancement
 
-See [https://github.com/titoBouzout/SideBarEnhancements]()
+See [https://github.com/titoBouzout/SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements)
 
 ### Anaconda
 
@@ -313,8 +313,6 @@ After install python for windows, copy the following code and save as a file in 
     "working_dir": "$file_dir"
 }
 ```
-
-
 
 ### ExportHTML
 
@@ -362,7 +360,6 @@ Optional: put the following in `cpp.sublime-build` in browse `package\user` if t
 }
 ```
 
-
 ### ASTYLE FORMATTER
 
 Windows, Linux:
@@ -379,13 +376,13 @@ OSX:
 
 ### SUBLIME REPL
 
-see here: [https://github.com/wuub/SublimeREPL]()
+see here: [https://github.com/wuub/SublimeREPL](https://github.com/wuub/SublimeREPL)
 
 ### Installing OpenCV in Windows and ST3
 
 1. install MinGW in as in the previous step and add to system path
-2. Install OpenCV from [http://opencv.org/downloads.html]() or [http://sourceforge.net/projects/opencvlibrary/files/opencv-win/]() recommended ver 2.4.11 and extract to `C:\` (`F:\` for Lenovo)
-3. Download and install CMAKE from [http://www.cmake.org/cmake/resources/software.html]()
+2. Install OpenCV from [HERE](http://opencv.org/downloads.html) or [HERE](http://sourceforge.net/projects/opencvlibrary/files/opencv-win/) recommended ver 2.4.11 and extract to `C:\` (`F:\` for Lenovo)
+3. Download and install CMAKE from [HERE](http://www.cmake.org/cmake/resources/software.html)
 4. Open cmake and select `C:\opencv\sources` as the source directory and `C:\opencv\build\x86\mingw` as the directory to build the binaries (you could select any directory but choosing this one will overwrite the pre-built OpenCV binaries and then the rest of the tutorial is the same. Click `configure` choose `minGW makefiles` wait and then click `generate`. When cmake is done we need to open a command prompt in the build directory, so navigate to `C:\opencv\build\x86\mingw` then shift right click and choose open command window here then type `mingw32-make`. Mingw will now start compiling OpenCV, this will take a bit so feel free to do something else, when you come back type `mingw32-make install`.
 5. Add OpenCV to the system path `C:\opencv\build\x86\mingw\bin;C:\opencv\build\include` by navigating to `Control Panel > System > Advanced System Settings`
 6. In the `cpp.sublime-build`, modify as needed below, and opencv can be used as usual.
@@ -470,9 +467,9 @@ My OpenCV was installed using HomeBrew, which has pkg-config information for ope
 ### Install Boost library on Windows 8
 
 Source: 
-[http://andres.jaimes.net/718/how-to-install-the-c-boost-libraries-on-windows/]()
+[http://andres.jaimes.net/718/how-to-install-the-c-boost-libraries-on-windows/](http://andres.jaimes.net/718/how-to-install-the-c-boost-libraries-on-windows/)
 
-Download and unzip the boost source code from [http://www.boost.org/](). I will unzip it to `C:\optc-libs`, but you can use the one you prefer. After you unzip, open a command line and go to your selected folder:
+Download and unzip the boost source code from [http://www.boost.org/](http://www.boost.org/). I will unzip it to `C:\optc-libs`, but you can use the one you prefer. After you unzip, open a command line and go to your selected folder:
 
 ```
 cd C:\optc-libs\boost_1_58_0
@@ -623,10 +620,9 @@ The final c++.sublime-build integrated with boost:
 }
 ```
 
-
 ### Docblockr
 
-[https://github.com/spadgos/sublime-jsdocs]()
+[https://github.com/spadgos/sublime-jsdocs](https://github.com/spadgos/sublime-jsdocs)
 
 ### Git & GitGutter
 

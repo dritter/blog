@@ -22,7 +22,7 @@ You can create a different profile other than Default if you wish to do so.
 
 ## Oh My Zsh
 
-See [https://github.com/robbyrussell/oh-my-zsh]()
+See [https://github.com/robbyrussell/oh-my-zsh][12]
 
 ### Install with curl
 
@@ -130,3 +130,4 @@ or just quit and restart your iTerm2 to make sure your changes are picked up.
 [9]: https://github.com/bhilburn/powerlevel9k/wiki/Install-Instructions#step-1-install-powerlevel9k
 [10]: https://github.com/zsh-users/zsh-autosuggestions#oh-my-zsh
 [11]: https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md
+[12]: https://github.com/robbyrussell/oh-my-zsh
