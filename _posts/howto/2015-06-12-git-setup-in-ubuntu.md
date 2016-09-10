@@ -14,10 +14,7 @@ Latest update: Jun 12, 2015 13:50:29 PM
 - Creating a token
 - Setting up the token
 - First time initialization
-- 3 Simple Steps / 2 Quick Steps
-    - Rename a git folder
-    - Remove directory from git and local
-    - Remove directory from git but NOT local
+- 3 Simple Steps in ST3
 
 <!-- /MarkdownTOC -->
 
@@ -31,10 +28,9 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
-
 ## Creating a token
 
-see [https://help.github.com/articles/creating-an-access-token-for-command-line-use/]()
+see [https://help.github.com/articles/creating-an-access-token-for-command-line-use/](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
 
 1. Settings icon in the user barIn the top right corner of any page, click your profile photo, then click `Settings`.
 2. Personal access tokens in the user settings sidebar, click `Personal access tokens`.
@@ -96,55 +92,15 @@ git config --global user.email johndoe@example.com
 git config --global push.default matching
 ```
 
-
 Navigate to the project folder, either `git init` for a new git project, or `git pull` pull from repository first.
 
+## 3 Simple Steps in ST3
 
-## 3 Simple Steps / 2 Quick Steps
-
+Quick commit in Sublime Text 3, this can be done conveniently.
 Initially, <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `init` must be done ONCE only.
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `add`
 
-<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `quick`, THEN type `message`
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `quick`, THEN type the message
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>, TYPE `push`
-
-
-**OR**
-
-To add and commit all in one step, just skip straight to the Quick Commit command. That will stage and commit for you.
-
-It’s the equivalent of
-
-```sh
-git commit -am 'im staging and committing!'
-```
-
-### Rename a git folder
-
-```sh
-git mv <old name> <new name>
-```
-
-followed by commit and push would be the simplest way.
-
-### Remove directory from git and local
-
-You could checkout `master` with both directories;
-
-```sh
-git rm -r one-of-the-directories
-git commit -m "Remove duplicated directory"
-git push origin master
-```
-
-### Remove directory from git but NOT local
-
-As mentioned in the comments, what you usually want to do is remove this directory from git but not delete it entirely from the filesystem (local)
-
-In that case use:
-
-```sh
-git rm -r --cached myFolder
-```
