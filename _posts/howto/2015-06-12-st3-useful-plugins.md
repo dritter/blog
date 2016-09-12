@@ -581,7 +581,8 @@ If everything goes right you should see the following text:
 `Will Success Spoil Rock Hunter?`
 
 The final c++.sublime-build integrated with boost:
-```
+
+```sh
 {
 "cmd": ["g++", "-Wall",  "*.cpp", "-o", "${file_path}/${file_base_name}",
 "-IC:\\opencv\\build\\include\\opencv2",
