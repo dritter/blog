@@ -46,9 +46,9 @@ For customization, see [here][8], and for other installation method, check [this
 
 ### Install powerline patched fonts 
 
-For theme **Agnoster** and **Powerline9k**, [download][6] the fonts and run `./install.sh`.
+For theme **Agnoster** and **Powerlevel9k**, [download][6] the fonts and run `./install.sh`.
 
-For theme **Powerline9k**, [download][7] the Non-ASCII font.
+For theme **Powerlevel9k**, [download][7] the Non-ASCII font.
 
 ### Set iTerm fonts
 In iTerm2 `preferences > profile > text`, 
